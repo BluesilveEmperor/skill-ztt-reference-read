@@ -1,0 +1,12 @@
+% 强制目录单独成页
+\let\oldtableofcontents\tableofcontents
+\renewcommand{\tableofcontents}{\oldtableofcontents\newpage}
+
+% 表格自适应：缩小字号和列间距，防止大表格超出页边距
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\let\oldtabular\tabular
+\def\tabular{\footnotesize\setlength{\tabcolsep}{3pt}\oldtabular}
+\let\oldlongtable\longtable
+\def\longtable{\footnotesize\setlength{\tabcolsep}{3pt}\oldlongtable}
