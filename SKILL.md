@@ -1,5 +1,5 @@
 ---
-name: ztt-pdf-read
+name: ztt-reference-read
 description: >-
   翻译研究文献 PDF 智能解析与结构化分析。支持双身份视角：
   ① 研究生视角（默认，学习理解导向）和 ② 审稿人视角（评估评判导向）。
